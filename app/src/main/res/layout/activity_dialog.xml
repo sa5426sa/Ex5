@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Switch
+        android:id="@+id/seq"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:text="Sequence Type"
+        android:textOff="Arithmetic"
+        android:textOn="Geometric" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="First Item"
+        android:inputType="number|numberSigned" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/diff"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Difference"
+        android:inputType="number|numberSigned" />
+
+</LinearLayout>
